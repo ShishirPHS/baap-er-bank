@@ -11,7 +11,7 @@ document.getElementById("btn-submit").addEventListener("click", function () {
     alert("Enter your email and password");
   } else {
     if (email === "test@gmail.com" && password === "secret") {
-      window.location.href = "../bank.html";
+      window.location.href = "bank.html";
     } else {
       alert("invalid user");
     }
